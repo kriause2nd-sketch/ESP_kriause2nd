@@ -22,7 +22,7 @@ local Window = Rayfield:CreateWindow({
    },
 
    Discord = {
-      Enabled = true, -- Prompt the user to join your Discord server if their executor supports it
+      Enabled = false, -- Prompt the user to join your Discord server if their executor supports it
       Invite = "noinvitelink", -- The Discord invite code, do not include Discord.gg/. E.g. Discord.gg/ABCD would be ABCD
       RememberJoins = false -- Set this to false to make them join the Discord every time they load it up
    },
