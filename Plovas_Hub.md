@@ -48,17 +48,6 @@ Rayfield:Notify({
 
 local Tab = Window:CreateTab("Universal Cheats", 4483362458) -- Title, Image
 
-
-
-local Button = Tab:CreateButton({
-   Name = "ESP_1",
-   Callback = function()
-   -- The function that takes place when the button is pressed
-   loadstring(game:HttpGet('https://raw.githubusercontent.com/kriause2nd-sketch/ESP_kriause2nd/refs/heads/main/ESP_MAIN.md'))()
-   end,
-})
-
-
 local Button = Tab:CreateButton({
    Name = "ESP_2",
    Callback = function()
