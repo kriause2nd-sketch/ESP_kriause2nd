@@ -49,10 +49,18 @@ Rayfield:Notify({
 local Tab = Window:CreateTab("Universal Cheats", 4483362458) -- Title, Image
 
 local Button = Tab:CreateButton({
-   Name = "ESP_2",
+   Name = "ESP",
    Callback = function()
    -- The function that takes place when the button is pressed
    loadstring(game:HttpGet('https://raw.githubusercontent.com/kriause2nd-sketch/ESP_kriause2nd/refs/heads/main/ESP2.md'))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Anti-AFK",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/kriause2nd-sketch/ESP_kriause2nd/refs/heads/main/Anti-AFK.md'))()
    end,
 })
 
