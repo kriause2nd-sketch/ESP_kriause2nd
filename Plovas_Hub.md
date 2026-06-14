@@ -64,6 +64,14 @@ local Button = Tab:CreateButton({
    end,
 })
 
+local Button = Tab:CreateButton({
+   Name = "Anti-LAG",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/kriause2nd-sketch/ESP_kriause2nd/refs/heads/main/Anti-LAG.md'))()
+   end,
+})
+
 local TabM = Window:CreateTab("Misc", 4483362458) -- Title, Image
 
 local Label = TabM:CreateLabel("Credits to Plovas", 4483362458, Color3.fromRGB(255, 255, 255), false) -- Title, Icon, Color, IgnoreTheme
