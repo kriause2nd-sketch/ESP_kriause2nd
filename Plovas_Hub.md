@@ -75,18 +75,10 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-   Name = "Anti-AFK",
+   Name = "Anti-AFK & Anti-LAG",
    Callback = function()
    -- The function that takes place when the button is pressed
    loadstring(game:HttpGet('https://raw.githubusercontent.com/kriause2nd-sketch/ESP_kriause2nd/refs/heads/main/Anti-AFK.md'))()
-   end,
-})
-
-local Button = Tab:CreateButton({
-   Name = "Anti-LAG",
-   Callback = function()
-   -- The function that takes place when the button is pressed
-   loadstring(game:HttpGet('https://raw.githubusercontent.com/kriause2nd-sketch/ESP_kriause2nd/refs/heads/main/Anti-LAG.md'))()
    end,
 })
 
