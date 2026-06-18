@@ -57,6 +57,13 @@ local Button = SpecTab:CreateButton({
    end,
 })
 
+local Button = SpecTab:CreateButton({
+   Name = "Combat Initiation",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/kriause2nd-sketch/ESP_kriause2nd/refs/heads/main/combat_ini.md'))()
+   end,
+})
 
 local Button = Tab:CreateButton({
    Name = "ESP",
