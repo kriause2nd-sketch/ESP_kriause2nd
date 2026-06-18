@@ -329,5 +329,5 @@ Tab3:CreateButton({
 
 -- Info Tab
 local Tab4 = Window:CreateTab("Information", 0)
-Tab4:CreateParagraph({Title = "Plovas", Content = "Made by"})
+Tab4:CreateParagraph({Title = "Made by", Content = "Plovas"})
 
