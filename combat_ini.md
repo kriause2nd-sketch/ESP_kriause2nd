@@ -1,18 +1,18 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
-   Name = "Combat Initation Script (v2.1.2)",
+   Name = "Combat Initation Hub",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
-   LoadingTitle = "Rayfield Interface Suite",
-   LoadingSubtitle = "by Sirius",
+   LoadingTitle = "Prepare",
+   LoadingSubtitle = "by Plovas",
    Theme = "Default", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
    DisableRayfieldPrompts = false,
    DisableBuildWarnings = false, -- Prevents Rayfield from warning when the script has a version mismatch with the interface
 
    ConfigurationSaving = {
-      Enabled = false,
-      FolderName = nil, -- Create a custom folder for your hub/game
-      FileName = "Big Hub"
+      Enabled = true,
+      FolderName = "Plovas_Combat_Initiation", -- Create a custom folder for your hub/game
+      FileName = "Plovas Combat Initiation Hub"
    },
 
    Discord = {
@@ -53,7 +53,7 @@ local Tab = Window:CreateTab("Fun Stuffz", 0)
 local Section1 = Tab:CreateSection("Sword")
 Tab:CreateParagraph({Title = "Sword", Content = "Parry go BRRR"})
 
--- Button for Modded Sword
+-- Button for Fast Sword
 Tab:CreateButton({
 	Name = "Modded Sword",
 	Callback = function(Value)
@@ -65,7 +65,7 @@ Tab:CreateButton({
 	end
 })
 
--- Button for Modded Firebrand
+-- Button for Fast Firebrand
 Tab:CreateButton({
 	Name = "Modded Firebrand",
 	Callback = function()
@@ -78,7 +78,7 @@ Tab:CreateButton({
 	end
 })
 
--- Button for Modded Katana
+-- Button for Fast Katana
 Tab:CreateButton({
 	Name = "Modded Katana",
 	Callback = function()
@@ -329,9 +329,5 @@ Tab3:CreateButton({
 
 -- Info Tab
 local Tab4 = Window:CreateTab("Information", 0)
-Tab4:CreateParagraph({Title = "v2.1.2", Content = "Updated for"})
-Tab4:CreateParagraph({Title = "v1.4 ALPHA", Content = "Current version"})
-Tab4:CreateParagraph({Title = "marik611277", Content = "Made by"})
-Tab4:CreateParagraph({Title = "Synapse X Remake", Content = "Created firstly in"})
-Tab4:CreateParagraph({Title = "Non-GUI script", Content = "Inspired by"})
-Tab4:CreateParagraph({Title = "discord.gg/HmP63uHfWq", Content = "Synapse X Remake Discord"})
+Tab4:CreateParagraph({Title = "Plovas", Content = "Made by"})
+
